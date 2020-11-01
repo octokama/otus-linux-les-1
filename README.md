@@ -26,8 +26,8 @@
 ## \*\*Настройка VirtualBox Shared Folders:
 
 ### 1) Добавить в vagrantfile строчку: 
-	`config.vm.synced_folder ".", "/vagrant", type: "virtualbox"`  
+`config.vm.synced_folder ".", "/vagrant", type: "virtualbox"`  
 ### 2) Перед `vagrant up` нужно установить плагин:
-	`vagrant plugin install vagrant-vbguest`  
-	и запустить его `vagrant vbguest`
+`vagrant plugin install vagrant-vbguest`  
+и запустить его `vagrant vbguest`
 ### 3) touch /vagrant/tmp.txt
