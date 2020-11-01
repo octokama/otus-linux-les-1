@@ -16,7 +16,7 @@
 `sudo make menuconfig`  
   
 `sudo make bzImage`  
-<!-- sudo make modules -->
+`sudo make modules`
 `sudo make`  
 `sudo make install`  
 `sudo make modules_install`  
