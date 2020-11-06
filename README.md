@@ -1,3 +1,4 @@
+Основная часть сделана по https://github.com/octokama/manual_kernel_update
 ## \*Сборка ядра из исходников:
 ### 1) Установка необходимых пакетов для компиляции ядра:
 `sudo yum update`  
